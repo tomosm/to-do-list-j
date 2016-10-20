@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>To Do List</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <link rel="stylesheet" type="text/css" href="//jsfiddle.net/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="/assets/todo.css">
+</head>
+
+<body>
+
+<div class="header">To Do List</div>
+
+<div class="board">
+
+  <div class="todo pending droppable">
+    <h3 class="header">Pending</h3>
+    <div class="tasks"></div>
+  </div>
+
+  <div class="todo inprogress droppable">
+    <h3 class="header">In Progress</h3>
+    <div class="tasks"></div>
+  </div>
+
+  <div class="todo completed droppable">
+    <h3 class="header">Completed</h3>
+    <div class="tasks"></div>
+  </div>
+
+  <div class="todo actions">
+    <h3 class="header">Add a task</h3>
+    <div>
+      <input type="text" class="title" placeholder="title"/>
+      <textarea class="description" placeholder="Description" rows="2"></textarea>
+      <input type="text" class="date" placeholder="Due Date(dd/mm/yyyy)"/>
+      <input type="button" class="small-button add-task" value="Add Task"/>
+      <input type="button" class="small-button clear-data" value="Clear Data"/>
+      <div class="droppable task-delete">Drag Here to Delete</div>
+    </div>
+  </div>
+
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/assets/todo.js"></script>
+
+</body>
+</html>

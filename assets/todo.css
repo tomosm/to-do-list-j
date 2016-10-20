@@ -1,0 +1,86 @@
+body {
+    color: #4d4d4d;
+}
+
+.small-button {
+    font-size: .8em !important;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 1.5pc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.board {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.todo {
+    float: left;
+    width: 250px;
+    background-color: #555;
+    margin: 0 5px 5px 5px;
+    min-height: 240px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.todo h3 {
+    color: #fff;
+    font-size: 1.2pc;
+}
+
+.todo input {
+    height: 30px;
+}
+
+.todo input, .todo textarea {
+    font-size: 1pc;
+    width: 240px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.todo.actions div > * {
+    margin: 5px;
+}
+
+.todo .task {
+    width: 240px;
+    background-color: #fff;
+    margin: 0 5px 5px 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.todo .task h4 {
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.todo .task .date {
+    padding-bottom: 2px;
+    font-style: italic;
+    font-size: 0.9pc;
+}
+
+.todo .task p {
+    font-size: 0.8pc;
+}
+
+.task-delete {
+    display: none;
+    width: 240px;
+    height: 75px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    line-height: 75px;
+    box-sizing: border-box;
+}
+
