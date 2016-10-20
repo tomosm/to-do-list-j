@@ -5,7 +5,8 @@ To Do List
 [A JavaScript to do list](https://tomosm.github.io/to-do-list-j/)
 
 ## Description
-The todo list inspired by [to-do-list](https://sdaityari.github.io/to-do-list/)
+The todo list is implemented from scratch in order to use jQuery UI and LocalStorage.
+The features are the same as the [to-do-list](https://sdaityari.github.io/to-do-list/).
 
 ## Demo
 https://tomosm.github.io/to-do-list-j/
