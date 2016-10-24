@@ -1,3 +1,4 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-84540030-3/welcome-page)](https://github.com/tomosm/to-do-list-j)
 
 To Do List
 ==========
